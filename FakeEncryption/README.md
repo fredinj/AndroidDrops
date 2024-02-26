@@ -1,3 +1,5 @@
+## Magisk Module
+
 Spoofs encryption status by editing build.prop
 
 ```
