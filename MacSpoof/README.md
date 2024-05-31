@@ -16,6 +16,14 @@ __Rooted Device
   su -c ip link set wlan0 address
   ```
 
-  ##
+__Note: This will disable MAC address randomization__
 
-  __The change will remain until you restart the phone or until you turn the module off from Quick Settings__
+##
+
+The change will remain until you restart the phone or until you turn the module off from Quick Settings
+
+The netwrok interface might be different in your device  
+Check the correct one using
+  ```
+su -c ip link show
+```
